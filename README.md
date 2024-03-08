@@ -42,3 +42,7 @@ A API usa códigos de status HTTP padrão para indicar o sucesso ou falha de uma
 2. Criando Times:
 * __"User and team are required"__: Necessário repassar um usuário e um time de pokemons, caso contrário esse erro é retornado.
 * __"Pokemon {name} not found"__: O pokemon não existe ou seu nome está escrito de forma incorreta.
+
+## Utilizando a API em container Docker:
+Utilizando o terminal no diretório criado:  
+Execute o comando: __docker-compose up --build__
