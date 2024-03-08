@@ -27,7 +27,7 @@ Para utilizar esta API, você precisa ter Python e Flask instalados em seu ambie
 * __Método__: POST
 * __Endpoint__: /api/teams
 * __Descrição__: Registra um novo time com base em uma lista de Pokémons fornecida.
-* __Corpo da Requisição__:(JSON)
+* __Corpo da Requisição__:(JSON)  
 {  
   "user": "nome_do_usuario",  
   "team": ["pokemon1", "pokemon2", "pokemon3", "pokemon4", "pokemon5", "pokemon6"]  
